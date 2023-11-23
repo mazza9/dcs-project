@@ -1,0 +1,186 @@
+body{
+    height: 0px;
+    font-family:"Poppins",sans-serif;
+    background-color:rgb(42, 63, 88);;
+    color:white
+}
+.page-header{
+    background-color:white;
+    color:rgb(42, 63, 88);
+    font-weight: bold;
+    padding:28px;
+    display:flex;
+    flex-direction: row;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    flex-shrink:0;
+    z-index:1;
+}
+.left-section{
+    flex: 100px;
+    cursor: pointer;
+}
+.middle section{
+    flex:3
+}
+
+.right-section {
+    display:flex;
+    flex-direction:row;
+    flex:100px;
+    background-color:white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-nav{
+    font-family:"Poppins";
+    background-color:white;
+    color:rgb(42, 63, 88);
+    font-weight: bold;
+    margin-right:2px;
+    height:22px;
+    border:none;
+    margin-right:6px;
+    cursor: pointer;
+}
+.site-nav:hover{
+    color:rgb(218, 171, 53);
+}
+
+.info-box{
+    display:flex;
+    column-gap: 40px;
+    cursor:pointer
+}
+.info-box-header{
+    padding: 17px 0px;
+    margin-bottom: -15px;
+    font-weight: bold;
+    text-align: center;
+    background-color:gray;
+}
+.info-box-area{
+    background-color: white;
+    color:black;
+    height:250px;
+}
+
+.info-box-header:hover{
+    background-color: rgb(218, 171, 53);
+    transition:0.8s;
+}
+.programme-desc{
+    text-align: center;
+    padding:8px;
+    cursor:pointer
+}
+.programme-desc:hover{
+    .info-box-header-text:hover{
+    background-color: rgb(218, 171, 53);
+    transition: 0.8s;
+    }
+    color:rgb(42, 63, 88)
+}
+.read-more-button{
+    font-family:"Poppins";
+    background-color:white;
+    color:rgb(218, 171, 53);
+    font-weight: bold;
+    
+    height:22px;
+    border:none;
+    cursor: pointer;
+}
+.read-more-button:hover{
+    text-decoration: underline;
+}
+.welcome-message{
+    text-align: center;
+    font-size: 50px;
+    font-weight:700 ;
+}
+.page-body{
+    margin-top: 120px;
+    margin-left:60px;
+    margin-right:60px;
+}
+.departmental-events,
+.short-courses-info{
+    display:flex;
+    flex-shrink: 0;
+    flex-direction:column ;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.short-courses{
+    display:flex;
+    flex-shrink: 0;
+    flex-direction:column ;
+    text-align: center;
+    margin-bottom: 100px;
+    background-color:white;
+    color:rgb(20, 20, 78)
+}
+.benefits{
+    display:flex
+}
+.expert-instructors,
+.certification{
+    display:flex;
+    flex-direction:column
+}
+.register-button{
+    margin:50px 550px 30px 550px;
+    padding:10px;
+    border:none;
+    font-family: Poppins,sans-serif;
+    background-color:rgb(218, 171, 53);
+    color:white;
+    cursor:pointer;
+}
+.page-links,
+.contact-details{
+    font-weight:300;
+    font-size: small;
+}
+.page-links div:hover{
+    color:rgb(218, 171, 53);
+    cursor:pointer
+}
+
+.register{
+    display:flex;
+    justify-content: center;
+}
+
+.read-more{
+    display:flex;
+    justify-content: center;
+}
+@media (max-width:1271px){
+    .info-box{
+        flex-wrap: wrap;
+        row-gap: 40px
+    }
+}
+@media (max-width:850px){
+    .benefits{
+        flex-direction: column;
+    }
+    .expert-instructors{
+        justify-content: center;
+    }
+}
+@media (max-width:1008px){
+    .info-box{
+        flex-direction:column;
+        row-gap:40px;
+    }
+    
+}
+@media (max-width:572px){
+}

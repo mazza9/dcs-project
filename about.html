@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About DCS UG</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/home.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="styles/responsive-foot.css">
+        <style>
+            .description{
+                font-size: smaller;
+                font-weight:300;
+            }
+            .about-head{
+                text-align: center;
+                font-size: 45px;
+                font-weight:400
+            }
+            .get-to-know-us{
+                display:flex;
+                flex-direction:column
+            }
+            .our-future,
+            .our-org,
+            .our-comm,
+            .dist-learn{
+                display:flex;
+                margin:40px 0            
+            }
+            .about-sub-head{
+                text-align: center;
+                font-size: 25px;
+                font-weight:600
+            }
+            .our-future-vid,
+            .our-org-img,
+            .our-comm-img,
+            .dist-learn-img{
+                flex:1;
+                justify-content: center;
+            }
+            .our-future-txt,
+            .our-org-txt,
+            .our-comm-txt{
+                margin:0 20px
+            }
+          
+            @media (min-width:1100px){
+                .description{
+                    margin:0 80px 60px 80px
+                }
+            } 
+            @media (max-width:950px){
+                .our-org{
+                    flex-direction:column;
+                    align-items:center;
+                    margin-top:100px
+                }
+                .our-future-txt,
+                .our-org-txt,
+                .dist-learn-txt{
+                    margin-bottom:30px
+                }
+               
+                .our-comm,
+                .dist-learn{
+                    flex-direction:column;
+                    margin-top: 200px;
+                    align-items:center
+                }
+                .our-future{
+                    flex-direction:column;
+                    margin: 200px 0;
+                    align-items:center
+                }
+            }
+           
+            
+        </style>
+    </head>
+    <body>
+        <div class="page-header">
+            <div style="
+            flex: 100px;
+            "class="left-section">
+                <img src="images/comScience_logo.png" 
+                style="
+                background-color: white;
+                width:250px;
+                height:41.7px;"
+                >
+            </div>
+            <div style="flex:2"class="middle-section"></div>
+            <div class="right-section">
+            <button class="site-nav">HOME</button>
+            <button class="site-nav">ABOUT</button>
+            <button class="site-nav">FACULTY</button>
+            <button class="site-nav">RESEARCH GROUPS</button>
+            </div>
+        </div>
+        <div class=page-body>
+            <div>
+                <p class="welcome-message" 
+                style="
+                background-color:rgb(20, 20, 78);
+                padding:40px;
+                margin-bottom:-10px
+                ">
+                    About Us
+                </p>
+            </div>
+            <div class="welcome-about">
+                <p>
+                    <div class="about-head">
+                    Welcome
+                    </div>
+                    <div class="description">
+                        This is the Information Technology age and at its core is Computer Science. The study of computer science 
+                        is therefore critical if society is to take full advantage of the benefits Information Technology has to 
+                        offer and make rapid economic advances. Computer science involves the study and development of applications
+                        that allow for our everyday use of computers, the software systems that support these applications, and the
+                        means and methods used to produce both applications and systems that behave reliably, correctly and 
+                        ethically. At the heart of Computer Science lies the skill of computer programming and employers who hire 
+                        Computer Scientists expect adept programmers with knowledge of current techniques and tools and the ability
+                        to apply sound engineering principles to the development, construction and maintenance of computer programs.
+                        The range of courses available in the department and the skills acquired by students enable them to find
+                        employment in many diverse fields of the economy and prepare our graduates for the computing industry,
+                        working in a project team (or research and development team), and to enable the graduate to bring specialist
+                        skills to that team. The course also provides the platform for further study or research through exposure
+                        to established and emerging technologies and methods, and to active fields of research in Computer Science.
+                        The Department offers two undergraduate degree programmes, Bachelor of Science in Computer Science Single-Major
+                        (3:2:1:1) and Major-Minor (3:2:2:1) as well as Bachelor of Science in Information Technology.
+                    </div>
+                </p>
+            </div>
+            <div class="get-to-know-us">
+                <div class="about-head" style="flex:1">Get To Know Us</div>
+                <div class="description" style="flex:1">
+                    <div style="text-align: center;">
+                        Things get interesting because you are eager to know more, or you become eager to know more because it is 
+                        interesting?
+                    </div>
+                    <div class="our-org">
+                        <div style="flex:3">
+                            <div class="about-sub-head">
+                                Our Organization
+                            </div>
+                            <div class="our-org-txt">
+                                The University of Ghana is one of the Africa's most preeminent public universities. Our impact on 
+                                individuals, our region and the world is profound. whether we are launching young people into a boundless
+                                future or confronting the grand challenges of our time through dauntless research. UG educates more than 
+                                38,000 students annually, with approximately 2.64% being computer science students. We turn ideas into 
+                                impact and transform the world around us. For more about our impact, visit our news site, UG News.
+                            </div>
+                        </div>
+                        <div class="our-org-img">
+                            <img src="images/our org.jpg" style="height:250px">
+                        </div>
+                    </div>
+                    <div class="our-comm"> 
+                        <div class="our-comm-img">
+                            <img src="images/departmental evts.jpg" style="height:250px">
+                        </div>
+                        <div style="flex:3">
+                            <div class="about-sub-head">
+                                Our Community
+                            </div>
+                            <div class="our-comm-txt">
+                                If you are inspired by a big challenge, you've come to the right place! The computer science community at
+                                the univrersity of Ghana encourages it's people to be vibrant and brave in taking on new challenges that
+                                push boundries beyond imagination.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dist-learn">
+                        <div style="flex:3">
+                            <div class="about-sub-head">
+                                Distance Learning
+                            </div>
+                            <div class="dist-learn-txt">
+                                Experience a UG-CDCD classroom from wherever you are. Take advantage of real-time lectures and personal 
+                                interaction with professors through a suite of online delivery options, customizing your degree to fit 
+                                your schedule. Our online classroom maintains the same level of academic rigor, while providing students 
+                                with more ways of learning.
+                            </div>
+                        </div>
+                        <div class="dist-learn-img">
+                            <img src="images/distance-learning.jpg" style="height:250px">
+                        </div>
+                    </div>
+                    <div class="our-future"> 
+                        <div class="our-future-vid">
+                            <video controls src="images/vid/video-bg.mp4" style="height:250px">
+                        </div>
+                        <div style="flex:3">
+                            <div class="about-sub-head">
+                                Building Our Future
+                            </div>
+                            <div class="our-future-txt">
+                                So what defines our students, faculty and community members? Above all, it's our belief in the infinite 
+                                possibilities and our unshakable optimism. It's a connection to others near and far. A hunger for 
+                                socio-economic transformation that pushes us to tackle challenges and pursue progress. It's the conviction 
+                                that together we can create a world of good. Join us on the journey.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-two">
+            <div class="footer-area">
+                <div class="top-footer-area">
+                    <div class="top-footer"style="flex:1; display:flex">
+                        <div style="flex:1">
+                            <div class="footer-head">Academics</div>
+                            <div class="page-links">
+                                <div>Undergraduate Course</div>
+                                <div>Graduate Courses(MPhil Computer Science)</div>
+                                <div>Graduate Courses(MSc Computer Science)</div>
+                                <div>Graduate Course(PhD)</div>
+                                <div>Academic Calendar</div>
+                                <div>Level 200 & 300 timetable</div>
+                                <div>Placements for Level 200 students</div>
+                                <div>Student Complaint Form</div>
+                            </div>
+                        </div>
+                        <div style="flex:1">
+                            <div class="footer-head">Admissions</div>
+                            <div class="page-links">
+                                <div>Undergraduate </div>
+                                <div>Graduate </div>
+                                <div>International Students</div>
+                                <div>Entry Requirements</div>
+                            </div>
+                        </div>
+                        <div style="flex:1">
+                            <div class="footer-head">Research</div>
+                            <div class="page-links">
+                                <div>Research at DCS </div>
+                                <div>Research Impact </div>
+                                <div>Libraries</div>
+                            </div>
+                        </div>
+                        <div style="flex:1">
+                            <div class="footer-head">About The Department</div>
+                            <div class="page-links">
+                                <div>Introducing DCS </div>
+                                <div>Head of Department's office </div>
+                                <div>Faculty</div>
+                                <div>Events</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="middle-footer-area" >
+                    <div class="middle-footer"style="flex:1; display:flex">
+                        <div style="flex:1">
+                            <div style="font-size:20px;margin-bottom:8px">Newsletter</div>
+                            <div class="newsletter-info">Stay updated with our latest </div>
+                            <div class="email-box-area">
+                                <div>
+                                    <input class="email-box"type="text"placeholder="Enter Email Address">
+                                    <button class="go-button">&#8594;</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="flex:1">
+                            <div style="font-size:20px;margin-bottom:8px">Contact Us</div>
+                            <div style="display:flex">
+                                <div style="flex:1">
+                                    <div style="font-size:15px;font-weight:600">Phone & Email</div>
+                                    <div class="contact-details">
+                                        <div>+233 501 382 035</div>
+                                        <div>+233 559 145 698</div>
+                                        <div>dcs@ug.edu.gh</div>
+                                    </div>
+                                    
+                                </div>
+                                <div style="flex:1">
+                                    <div style="font-size:15px;font-weight:600">Location</div>
+                                    <div class="contact-details">
+                                        <div>University Of Ghana, Legon</div>
+                                        <div>Campus</div>
+                                        <div>Opposite Mathematics</div>
+                                        <div>Department</div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div style="flex:1">Copyright &copy;2023 All rights reserved</div>
+                    <div>
+                        <button class="socials"><img src="images/fb4.png" height="20px"></button>
+                        <button class="socials"><img src="images/twit2.png" height="20px"></button>
+                        <button class="socials"><img src="images/ig.png" height="20px"></button>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </body>
+</html>

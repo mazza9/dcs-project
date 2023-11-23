@@ -1,0 +1,19 @@
+@media (max-width:1271px){
+    .footer-area{
+        bottom:0;
+        top: 2800px
+    }
+    .top-footer,
+    .middle-footer{
+        flex-direction: column;
+        row-gap: 50px;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media (max-width:1008px){
+    .footer-area{
+        bottom:0;
+        top: 3200px
+    } 
+}

@@ -1,0 +1,46 @@
+.footer-area{
+    background-color:rgb(20, 20, 78);
+    display:flex;
+    flex-direction: column;
+}
+.top-footer-area,
+.middle-footer-area{
+    flex:1;
+    padding:50px;
+    background-color:rgb(20, 20, 78)
+}
+.footer{
+    display:flex;
+    background-color:rgb(20, 20, 78);
+    padding:50px;
+}
+.footer-head{
+    font-size:20px;
+    margin-bottom:8px
+}
+.socials{
+    background-color:white;
+    border:none;
+    cursor:pointer
+}
+.email-box{
+    padding:10px;
+    width:270px
+}
+.email-box::placeholder{
+    font-family:"Poppins",sans-serif;
+}
+.go-button{
+    height:38px;
+    width:40px;
+    margin-left:-5px;
+    background-color:rgb(218, 171, 53);
+    color:white;
+    border:none;
+}
+.newsletter-info{
+    margin-bottom:20px;
+    font-weight:300;
+    font-size: small;
+}
+
